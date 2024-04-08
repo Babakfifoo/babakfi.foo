@@ -1,0 +1,32 @@
+---
+enable: true
+topTitle: My Skills
+content: >
+  ## Why should you hire me?
+
+  I believe that ones creativity must not be limited by ones capability of using tools. I learn anything that is needed for my goals, even if I do not have any experience in it.
+
+image: images/skill/skill_image.jpg
+
+skill:
+  - title: Python
+    percent: 75
+    image: /images/skill/python.png
+  - title: R
+    percent: 72
+    image: /images/skill/R.png
+  - title: GIS
+    percent: 80
+    image: /images/skill/QGIS.png
+  - title: STATA
+    percent: 65
+    image: /images/skill/STATA Logo.png
+  - title: Julia
+    percent: 45
+    image: /images/skill/Julia-BW.png
+  - title: SQL
+    percent: 40
+    image: /images/skill/SQL.png
+  - title: PostgreSQL
+    percent: 30
+    image: /images/skill/PostgreSQL.png
