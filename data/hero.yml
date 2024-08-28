@@ -2,12 +2,12 @@
 enable: true
 topTitle: Moikka!, I am Babäk
 content: >
-  # I am here to take care of your data.
+  # Do you have a data problem?
 
-  Lorem ipsum
+  If you are looking for someone who can take care of your data with creative solutions, look no further!
 
 buttonName: Contact me
 buttonURL: contact
-image: images/hero/2960351.jpg
-videoThumb: images/hero/popup-thumb.png
+image: images/hero/profile.jpg
+# videoThumb: images/hero/popup-thumb.png
 

@@ -31,8 +31,9 @@
             <span class="top-title pre-line">{{ .topTitle }}</span>
             {{ .content | markdownify }}
           </div>
+          {{ $address := .Site.Params.address }}
           <a type="button" class="btn btn-lg btn-primary btn-zoom"
-            href="{{ .buttonURL | absURL }}">{{ .buttonName }}</a>
+            href="mailto:{{ $address.email }}">{{ .buttonName }}</a>
         </div>
       </div>
       <div class="col-lg-6">

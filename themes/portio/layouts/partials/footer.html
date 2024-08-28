@@ -24,10 +24,11 @@
 					</div>
 					<div class="text-light footer__cta_content">
 						<span>Contact me</span>
-						<h2 class="mb-0">Let’s Start a Project</h2>
+						<h2 class="mb-0">Let’s Start a Project, shall we?</h2>
 					</div>
 					<div class="footer__cta_action">
-						<a class="btn btn-light btn-zoom" href="{{ .Site.Params.contactLink | absURL }}">Get in
+                        {{ $address := .Site.Params.address }}
+						<a class="btn btn-light btn-zoom" href="mailto:{{ $address.email }}">Get in
 							touch</a>
 					</div>
 				</div>
@@ -35,12 +36,12 @@
 		</div>
 		<div class="row footer__widget">
 			<div class="col-lg-4">
-				<div class="footer__widget_logo mb-5">
+				<!-- <div class="footer__widget_logo mb-5">
 					<img src="{{ .Site.Params.footerLogo | absURL }}" alt="widget-logo">
-				</div>
+				</div> -->
 			</div>
 			<div class="col-lg-4">
-				<div class="text-light footer__widget_sitemap mb-5">
+				<!-- <div class="text-light footer__widget_sitemap mb-5">
 					<h4 class="base-font">Sitemap</h4>
 					<ul class="unstyle-list small">
 						{{ $sitemap := .Site.Menus.sitemap }}
@@ -48,20 +49,20 @@
 						<li class="mb-2"><a class="text-light" href="{{ .URL | absURL }}">{{ .Name }}</a></li>
 						{{ end }}
 					</ul>
-				</div>
+				</div> -->
 			</div>
 			<div class="col-lg-4">
 				<div class="text-light footer__widget_address mb-5">
 					<h4 class="base-font">Address</h4>
 					{{ $address := .Site.Params.address }}
 					<ul class="fa-ul small">
-						<li class="mb-2"><a class="text-light" href="tel:{{ $address.phone }}"><span class="fa-li"><i
-										class="fa fa-phone"></i></span>{{ $address.phone }}</a></li>
+						<!-- <li class="mb-2"><a class="text-light" href="tel:{{ $address.phone }}"><span class="fa-li"><i
+										class="fa fa-phone"></i></span>{{ $address.phone }}</a></li> -->
 						<li class="mb-2"><a class="text-light" href="mailto:{{ $address.email }}"><span class="fa-li"><i
 										class="fa fa-envelope"></i></span>{{ $address.email }}</a></li>
-						<li class="mb-2">
+						<!-- <li class="mb-2">
 							<span class="fa-li"><i class="fa fa-map-marker"></i></span>{{ $address.address }}</a>
-						</li>
+						</li> -->
 					</ul>
 				</div>
 			</div>
