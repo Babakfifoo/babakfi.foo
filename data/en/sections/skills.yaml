@@ -1,0 +1,65 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: R
+  logo: /images/sections/skills/r.png
+  summary: "I learned this programming language for advanced analysis in econometrics, biostatistics, spatial analysis, survival data analysis and data visualisation"
+  url: "https://www.r-project.org/"
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Using as the main language for data processing, data engineering, machine learning, network analysis and spatial data science. I learned how to deploy Azure functionas, scraping data from websites, and use various APIs."
+
+
+- name: Julia
+  logo: /images/sections/skills/julia.png
+  summary: "I learned Julia for projects where I faced performance issues. Further I developed machine learning, optimization and statistical modeling on demand"
+
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: "I stored the research data in our datalake, and used SQL to access prepare and transform data for researchers."
+  url: "https://www.docker.com/"
+
+- name: Postgres
+  # logo: /images/sections/skills/postgres.png
+  summary: "Postgres with its extensions is a useful tool that I used to process my projects to store spatial data and perform analysis."
+  url: "https://prometheus.io/"
+
+- name: DuckDB
+  logo: /images/sections/skills/duckdb.png
+  summary: "DuckDB is one of the most useful tools that I had my hands on to store and access data for my projects. The inprocess and embedded nature of this tool made it the most suitable solution to my needs."
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  url: "https://git-scm.com/"
+
+- name: MangoDB
+  logo: /images/sections/skills/mongodb.png
+  summary: "To store our document based data, I used MongoDB. Although I migrated all semi-structured data to other solutions, Mongo is still my number one for Json based solutions."
+
+- name: Econometrics
+  logo: /images/sections/skills/econometrics.png
+  summary: "Econometrics knowledge is essential for my doctoral studies. These models are refined to accomodate economic assumptions, leading to more accurate results."
+
+- name: Docker
+  logo: /images/sections/skills/docker.png
+  summary: "After learning this, I can be sure it also works on other systems!"
+
+- name: Machine Learning
+  logo: /images/sections/skills/ml.png
+  summary: "The advanced models I learned outside of econometrics are from Machine Learning field that helped me to analyse and process data."
+
+- name: Spatial Data Science
+  logo: /images/sections/skills/spatial.png
+  summary: "The three most important thing in Real estate are: Location, Location and Location. So I learned about the models and colutions this field offers."

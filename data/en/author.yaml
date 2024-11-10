@@ -1,0 +1,20 @@
+# some information about you
+name: "Babak Firoozi Fooladi"
+nickname: "Babak"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/Profile_square.jpg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "contact@babakfi.foo"
+  # phone: "+0123456789"
+  github: babakfifoo
+  linkedin: babak-firoozi-fooladi
+
+# some summary about what you do
+summary:
+  - I am a Real Estate Analyst
+  - I am a Data Scientist
+  - I am a Data Analytics Engineer
+  - I am s Spatial Data Analyst
+  - I love solving problems

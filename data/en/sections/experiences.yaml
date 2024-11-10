@@ -1,0 +1,95 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Qissa kaupunkisuunnitteluanalytiikka Oy 
+    url: "https://www.aalto.fi/en"
+    location: Otaniemi, Espoo
+    # company overview
+    overview: I used my Spatial data science skill into play to produce dashboards and functions for the startup. I provided data preparation infrastructure for one of the client so they can perform CO² emission estimation in U.S., Norway, Sweden and Finland. Dashboards contained maps and 3D visualisations.
+  positions:
+  - designation: Data Analytics Engineer Consultant
+    start: Sep 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Present
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Data processing
+    - Spatial Analytics
+    - Data modeling
+    - Machine Learning
+
+
+- company:
+    name: Aalto University
+    url: "https://www.aalto.fi/en"
+    location: Otaniemi, Espoo
+    # company overview
+    overview: As a quantitative researcher, I am proficient in advanced statistical modeling techniques. I have honed my skills in R, Python, Julia, and Stata, enabling me to implement complex models and visualizations efficiently and effectively across various platforms tailored to specific research needs..
+  positions:
+  - designation: Doctoral Candidate
+    start: Sep 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Dec 2024
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Research
+    - Data management
+    - Data modelling
+    - Econometrics modelling
+    - Teaching
+    - Providing data solutions
+
+  - designation: Research assistant
+    start: Jun 2019
+    end: Aug 2020
+    responsibilities:
+    - Agent based modelling using GAMA Platform
+    - research on parking demand pressure
+    - Master thesis worker
+    - Learning advanced econometrics
+
+- company:
+    name: WSP Finland Oy.
+    url: "https://www.wsp.com/fi-fi"
+    location: Pasila, Helsinki
+    overview: At WSP Consulting, I adapted to Finnish work culture while producing spatial analyses, visualizations, and 3D city models. I designed and conducted a pedestrian route choice forecast to estimate changes in pedestrian flow after project implementations. Additionally, I supported other units with spatial data preparation and cartography. At peak workload, I managed seven projects across various units. This role highlighted the need for a structured approach to project data that accommodates diverse datasets and documents, usable by non-data professionals, which inspired my path toward data engineering.   
+  positions:
+  - designation: Analyst
+    start: Aug 2020
+    end: Jun 2021
+    responsibilities:
+    - Applying pedestrian route choice forcast
+    - Develop codebase for CityEngine generative 3D model
+    - Spatial Data analysis
+    - Data modeling solutions
+    - Data Preparation
+    - Cartography
+    - Data Visualisation
+
+  - designation: Planning Assistant
+    start: Jan 2019
+    end: Aug 2020
+    responsibilities:
+    - Applying pedestrian route choice forcast
+    - Develop codebase for CityEngine generative 3D model
+    - Data Preparation
+    - Cartography
+    - Data Visualisation
+
+  - designation: Internship
+    start: Nov 2018
+    end: Jan 2019
+    responsibilities:
+    - Develop ad-hoc network analysis for pedestrian route choice
+    - Data Preparation
+    - Data visualisation

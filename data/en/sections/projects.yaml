@@ -1,0 +1,45 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Startup funding data analysis
+  # logo: /images/sections/projects/kubernetes.png
+  role: Analyst
+  repo: https://github.com/Babakfifoo/startup-analysis # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Analysing the startup application dataset from Statistics Finland
+  tags: ["data science", "time-series", "hobby"]
+
+- name: Plotly FigureFriday challenge
+  # logo: /images/sections/projects/tensorflow.png
+  role: Analyst
+  repo: https://eveliinahampus.github.io/plotly-dash/
+  #url: ""
+  summary: Implementing code for Plotly FigureFriday challenge.
+  tags: [ "Data visualisation", "hobby"]
+
+- name: Selvitys ja tutkimustoiminta Utrednings- och forskningsverksamhet Kaavoituksen vaikutukset kiinteistöjen arvoihin ja maankäyttöpoliittisten keinojen muutosten vaikutusarviointi   
+  role: Data analyst
+  url: "https://julkaisut.valtioneuvosto.fi/bitstream/handle/10024/165324/VNTEAS_2023_64.pdf?sequence=1"
+  summary: Processing Plan, and property transaction data to produce statistics
+  tags: ["academic","data analysis", "professional"]
+
