@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "application.css",
-	"sourceRoot": "/home/babakfifoo/Documents/websites/toha",
+	"sourceRoot": "/home/babakfifoo/Documents/websites/babakfi.foo",
 	"sources": [
 		"assets/styles/application.template.scss",
 		"node_modules/bootstrap/scss/bootstrap.scss",
