@@ -15,7 +15,20 @@ section:
 #   url: "https://www.example.com"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "/files/DataScience Resume.pdf"
+resume: 
+- name: "Data Science Resume"
+  url: "https://filedn.eu/lCpYQvYSkt2Sg6G9r2622em/DataScience%20Resume.pdf"
+
+- name: "Data Engineering Resume"
+  url: "https://filedn.eu/lCpYQvYSkt2Sg6G9r2622em/DataEngineering%20Resume.pdf"
+
+- name: "Spatial Analyst Resume"
+  url: "https://filedn.eu/lCpYQvYSkt2Sg6G9r2622em/SpatialDataScience%20Resume.pdf"
+
+- name: "Academic Resume"
+  url: "https://filedn.eu/lCpYQvYSkt2Sg6G9r2622em/DataEngineering%20Resume.pdf"
+
+
 
 # a summary about you
 summary: 'A versatile and proactive problem solver with a strong ability to quickly adapt and learn new skills. With a foundational knowledge in econometrics, statistics, data science, and ever growing expertise data processing, and visualization, I excel at creating analytics, and insights to provide solutions at any levels of complexity. My core strength lies in my ability to acquire new knowledge rapidly, adabt to workflow and collaborate with others.' 

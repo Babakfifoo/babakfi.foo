@@ -41,9 +41,11 @@
         </ul>
       </div>
       {{ if .resume }}
-      <a href="{{ .resume | relURL }}" title="{{ i18n "resume"}}" target="#"
-        ><button class="btn btn-dark">{{ i18n "resume"}}</button></a
-      >
+        {{ range .resume }}
+        <a href="{{ .url | relURL }}" title="" target="#"
+            ><button class="btn btn-dark">{{.name}}</button></a
+        ></br>
+        {{ end }}
       {{ end }}
       {{ range .resourceLinks }}
       <a href="{{ .url | relURL }}" title="{{ .title }}" target="#"
