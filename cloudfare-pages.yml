@@ -1,0 +1,6 @@
+steps:
+  - name: Build Hugo Site
+    run: hugo --cleanDestinationDir
+outputs:
+  html:
+    base: public
